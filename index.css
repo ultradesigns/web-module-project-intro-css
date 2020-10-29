@@ -1,4 +1,265 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 *{
     background-color: #ffffff;
     border: 1px solid red;
 }
+
+
+
+.navHeader{
+   margin: 0 auto;
+   text-align: center;
+   display: block;
+   width: 80%; 
+   padding: 2%;
+}
+
+.navHeader a{
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 12px;
+    padding: 2%;
+    text-decoration: none;
+    margin: 10%;
+    
+
+}
+
+#firstTop{
+ background-color: #FF764E;
+}
+
+#secondTop{
+    background-color: #5ED3EB;
+}
+
+#thirdTop{
+    background-color: #FFCD69;
+}
+
+.secondSection{
+
+}
+
+.header{
+    
+    width: 100%;
+  
+}
+
+.firstImg {
+    border-radius: 50%;
+    width: 40%;
+    
+    vertical-align:middle;
+}
+
+.test{
+    width: 50%;
+    vertical-align:middle; 
+    text-align: center;  
+}
+
+.divTest{
+    display: inline-block;
+    width: 45%;
+    vertical-align:middle;
+}
+
+#title{
+    font-family:"ChelseaMarket", cursive;
+    font-size: 2em;
+    padding: 10px;
+    width: 100%;
+}
+
+.space1{
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    line-spacing: 2em;
+    font-size: 1.3em;
+    
+}
+
+#paragraph1{
+    width: 60%;
+    margin: 4% 5%;
+    display: inline-block;
+}
+
+ .thirdSection{
+    padding: 25px;
+    background-color: #DDB9A3;
+    Margin: 25px;
+}
+
+ .thirdSection p{
+    background-color: #DDB9A3;
+    color: #ffffff;
+    font-size: 1.3em;
+}
+
+.padding{
+    padding: 1em;
+}
+
+.divPad{
+    padding: 2em;
+    
+}
+
+#paragraph2{
+
+}
+
+.fourthSection{
+
+}
+
+img.bodyImg1{
+    border-radius: 50%;
+    width: 10%;
+    margin: 0 auto;
+    vertical-align:middle;
+    text-align: center;
+
+}
+
+.bodyImg2{
+
+}
+
+#firstImgDiv{
+
+}
+
+#secondImgDiv{
+
+}
+
+.icon-text{
+
+}
+
+.secondImgDiv{
+
+}
+
+.footerSection{
+
+}
+
+ img{
+    border-radius: 50%;
+    width: 10%;
+    text-align: center;
+    vertical-align:middle;
+}   
+
+#footerImg{
+    width: 25%;
+}
+
+.hero-image-container{
+    background: url("assets/footer_img.jpg");
+    padding: 10%;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0px;
+    background-size: 100%;
+
+}
+
+.footerClass{
+
+}
+
+.footerDiv{
+#
+}
+
+.footerNav{
+
+}
+
+#firstBottom{
+    background-color: #FF764E;
+}
+
+#secondBottom{
+    background-color: #5ED3EB;
+}
+
+#thirdBottom{
+    background-color: #FFCD69;
+}
+
+
+.footerNav a{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 80%; 
+    padding: 2%;
+ }
+ 
+  .footerNav a{
+     display: inline-block;
+     border: 1px solid red;
+     border-radius: 12px;
+     padding: 2%;
+     text-decoration: none;
+     margin: 10%;
+
+     
+    
+    
