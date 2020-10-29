@@ -68,7 +68,7 @@ table {
     border-radius: 12px;
     padding: 2%;
     text-decoration: none;
-    margin: 10%;
+    margin: 5%;
     
 
 }
@@ -97,13 +97,13 @@ table {
 
 .firstImg {
     border-radius: 50%;
-    width: 40%;
+    width: 24%;
     
     vertical-align:middle;
 }
 
 .test{
-    width: 50%;
+    width: 100%;
     vertical-align:middle; 
     text-align: center;  
 }
@@ -113,8 +113,7 @@ table {
     width: 45%;
     vertical-align:middle;
 }
-
-#title{
+h1{
     font-family:"ChelseaMarket", cursive;
     font-size: 2em;
     padding: 10px;
@@ -157,15 +156,18 @@ table {
     
 }
 
-#paragraph2{
-
-}
-
 .fourthSection{
-
+    text-align: center;
+    padding: 2%;
 }
 
-img.bodyImg1{
+.paraCenter {
+    text-align: center;
+    width:25%;
+    margin-left: 40%;
+}
+
+.bodyImg1{
     border-radius: 50%;
     width: 10%;
     margin: 0 auto;
@@ -175,7 +177,7 @@ img.bodyImg1{
 }
 
 .bodyImg2{
-
+    text-align:center;
 }
 
 #firstImgDiv{
@@ -206,7 +208,7 @@ img.bodyImg1{
 }   
 
 #footerImg{
-    width: 25%;
+    text-align: center;
 }
 
 .hero-image-container{
@@ -219,13 +221,6 @@ img.bodyImg1{
 
 }
 
-.footerClass{
-
-}
-
-.footerDiv{
-#
-}
 
 .footerNav{
 
@@ -242,24 +237,20 @@ img.bodyImg1{
 #thirdBottom{
     background-color: #FFCD69;
 }
-
-
-.footerNav a{
-    margin: 0 auto;
-    text-align: center;
-    display: block;
-    width: 80%; 
-    padding: 2%;
- }
  
   .footerNav a{
-     display: inline-block;
      border: 1px solid red;
      border-radius: 12px;
      padding: 2%;
      text-decoration: none;
      margin: 10%;
+     text-align: center;
+  }
 
-     
+  .footerDiv{
+    Margin-top: 5%;
+}
+
+  
     
     
